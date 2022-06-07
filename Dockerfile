@@ -1,6 +1,6 @@
 FROM golang:1.17-alpine
 
-ARG PORT
+ARG PORT=8080
 
 WORKDIR /app
 
